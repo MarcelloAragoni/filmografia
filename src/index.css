@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-image: url(../img/ticket-2974645_960_720.webp);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.login h1{
+ justify-self: center;
+}
+
+.login {
+  position: absolute;
+  left: 800px;
+  top: 200px;
+  display: grid;
+  grid-template-areas:
+      "gum"
+      "gdois"
+      "gtres";
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+  grid-row-gap: 3rem;
+}
+
+.login .Lpass{
+  padding-top: 10px;
+}
+
+.gum{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 25px;
+}
+
+.blogin {
+  background-color: rgb(164, 68, 228);
+  background-image: linear-gradient(45deg, #47c4da, #d621d6);
+  background-size: 100%;
+  background-repeat: repeat;
+  border-radius: 25px;
+  height: 40px;
+  border-width: 0px;
+  color: white;
+  font-weight: bold;
+  width: 85%;
+  justify-self: center;
+}
+
+.resetpass{
+  text-align: right;
+  font-size: 10px;
+  color: gray;
+  text-decoration: none;
+}
+
+input {
+  height: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+input::placeholder{
+  color: gray;
+}
+
+input:focus-visible{
+  outline:none!important;
+}
+
+.gtres{
+  display: flex;
+  flex-direction: column;
+}
+
+.gtres .redeslogin{
+  align-self: center;
+  font-size: 13px;
+  color: gray;
+  text-decoration: none;
+}
+
+.gtres .RedesSociais {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gtres .RedesSociais a{
+  text-decoration: none;
+  font-size: 30px;
+  padding-top:10px;
+}
+
+.gtres .RedesSociais a+a{
+  padding-left:10px;
+}
+
+.fa-facebook-square{
+  color: #3B5998;
+}
+
+.fa-twitter-square{
+  color: #1DA1F2;
+}
+
+.fa-google{
+  color: #EA4335;
 }
