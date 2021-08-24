@@ -13,9 +13,9 @@ body{
   top: 200px;
   display: grid;
   grid-template-areas:
-      "gum"
-      "gdois"
-      "gtres";
+      "forms"
+      "buttonlogin"
+      "socialmedia";
   height: auto;
   padding: 10px;
   background-color: white;
@@ -28,7 +28,7 @@ body{
   padding-top: 10px;
 }
 
-.gum{
+.forms{
   display: flex;
   flex-direction: column;
   padding-left: 20px;
@@ -71,31 +71,31 @@ input:focus-visible{
   outline:none!important;
 }
 
-.gtres{
+.socialmedia{
   display: flex;
   flex-direction: column;
 }
 
-.gtres .redeslogin{
+.socialmedia .redeslogin{
   align-self: center;
   font-size: 13px;
   color: gray;
   text-decoration: none;
 }
 
-.gtres .RedesSociais {
+.socialmedia .RedesSociais {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.gtres .RedesSociais a{
+.socialmedia .RedesSociais a{
   text-decoration: none;
   font-size: 30px;
   padding-top:10px;
 }
 
-.gtres .RedesSociais a+a{
+.socialmedia .RedesSociais a+a{
   padding-left:10px;
 }
 
