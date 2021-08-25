@@ -1,0 +1,18 @@
+input {
+  height: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  &::placeholder {
+    color: gray;
+  }
+
+  &:focus-visible {
+    outline: none !important;
+  }
+}
+
+label {
+  display: block;
+}
