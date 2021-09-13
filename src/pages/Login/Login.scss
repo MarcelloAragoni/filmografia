@@ -1,0 +1,49 @@
+.login {
+  position: absolute;
+  left: 800px;
+  top: 200px;
+  display: grid;
+  grid-template-areas:
+    "forms"
+    "buttonlogin"
+    "socialmedia";
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+  grid-row-gap: 3rem;
+
+  h1 {
+    justify-self: center;
+  }
+
+  .forms{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 25px;
+  } 
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: column;
+
+  .redeslogin {
+    align-self: center;
+    font-size: 13px;
+    color: gray;
+    text-decoration: none;
+  }
+
+  .redesSociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .redesSociais a+a {
+    padding-left: 10px;
+  }
+}
